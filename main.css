@@ -2,6 +2,12 @@
 input:focus{
     outline: none;
 }
+select{
+    -webkit-appearance: none;
+}
+select:focus{
+    outline: none;
+}
 #wrap{
     width: 1280px;
     margin: 0 auto;
@@ -152,6 +158,7 @@ section#intro button{
     background: url("images/dropdown.png") #fff no-repeat 96% 50%;
     font: 12px "Microsoft YaHei";
     color: #a8aaab;
+
 }
 
 #box4 div.select-style button{
@@ -463,6 +470,7 @@ section#intro button{
     background-color: #696266;
     font: 15px "Microsoft YaHei";
     color: white;
+    vertical-align: middle;
 }
 #box9 div.box9-content-wrap span.box9-sns{
     display: block;
