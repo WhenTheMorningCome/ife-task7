@@ -369,6 +369,7 @@ section#intro button{
     display: inline-block;
     position: absolute;
     right: 0;
+    cursor: pointer;
 }
 #box8 div.box8-content-wrap div.box8-content-left div.box8-content-detail span img{
     width: 10px;
@@ -380,17 +381,66 @@ section#intro button{
     height: 286px;
     margin-left: 76px;
     float: left;
-    background-color: #aaa;
+    /*background-color: #aaa;*/
 }
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap{
+    font: 12px "SimSun";
+    color: #231916;
+}
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap>span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 310px;
+    background-color: #ededed;
+    margin-bottom: 14px;
+}
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap>span.box8-input-style-wide{
+        width: 626px;
+        height: 122px;
+    }
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap span input{
+    background: transparent;
+    border: 0;
+    height: 28px;
+    line-height: 28px;
+    /*width: 230px;*/
 
+}
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap>span>span{
+    margin-left: 16px;
+}
+#box8 div.box8-content-wrap div.box8-content-right div.box8-content-right-wrap button{
+    width: 626px;
+    height: 40px;
+    background-color: #ededed;
+    border: 0;
+    font: 14px "SimHei";
+    cursor: pointer;
+    color: #333;
+}
+/*box9 connect with us*/
 #box9{
     height: 360px;
-    border: 1px solid #999;
+    background-color: #33363f;
 }
 
 #box10{
     height: 58px;
-    border: 1px solid #999;
+    background-color: #303039;
 }
-
+#box10 span{
+    font: 12px "SimSun";
+    color: #fff;
+    line-height: 58px;
+    position: relative;
+}
+#box10 span.box10-new-world{
+    margin-left: 100px;
+}
+#box10 span.box10-back{
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
 
