@@ -1,0 +1,249 @@
+*{margin: 0;padding: 0;}
+#wrap{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Microsoft YaHei";
+}
+
+/*box0 导航*/
+#box0{
+    height: 57px;
+    /*border: 1px solid #999;*/
+}
+
+#box0 ul{
+    position: absolute;
+    right: 67px;
+    top: 0;
+}
+#box0 ul li{
+    line-height: 56px;
+    list-style: none;
+    float: left;
+    padding: 0 23px;
+    font-size: 14px;
+    color: #797b83;
+    cursor: pointer;
+}
+
+#box0 ul li#selected{
+    color: #e7504d;
+    border-bottom: 5px solid #e7504d;
+}
+
+span#logo{
+    display: inline-block;
+    position: relative;
+    left: 59px;
+    top: 13px;
+}
+#box0 ul li#login{
+    color: #e7504d;
+}
+
+#box0 ul li#login img{
+    vertical-align: -3px;/*vertical-align元素对img和text元素有作用*/
+}
+
+/*box1 开始体验,大图*/
+#box1{
+    height: 690px;
+    background-image: url("images/bg01.jpg");
+    position: relative;
+}
+section#intro{
+    position: relative;
+    left: 118px;
+    top: 234px;
+    color: white;
+}
+
+section#intro h1{
+    font-size: 60px;
+}
+
+section#intro h3{
+    font-size: 21px;
+    line-height: 37px;
+}
+
+section#intro button{
+    width: 330px;
+    height: 65px;
+    background-color: #e7504d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 68px;
+    cursor: pointer;
+}
+
+/*box2 整体介绍*/
+
+#box2{
+    height: 250px;
+}
+#box2 section.box2-feature{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#box2 section.box2-feature img{
+    padding: 47px 0;
+}
+#box2 section.box2-feature p{
+    width: 160px;
+    margin: 0 auto;
+    font: 14px "SimHei";
+    color: #767777;
+}
+
+/*box3 关于新世界，你不知道还有什么*/
+#box3{
+    height: 360px;
+    background-color: #ededec;
+    text-align: center;
+}
+#box3 img{
+    padding: 90px 0px 54px 0px;
+}
+#box3 p{
+    font:54px 'SimHei';
+    /*font-family: "SimHei";*/
+    color: #333333;
+}
+
+/*box4 dropdownlist*/
+#box4{
+    height: 340px;
+    background: url("images/box5-bg.png") rgba(190,79,72,0.2);/*多样式的background property*/
+
+}
+#box4 p,#box4 h3{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+#box4 h3{
+    padding-top: 53px;
+}
+#box4 p{
+    font-size: 12px;
+    padding: 33px 0px 53px 0px;
+}
+
+#box4 div.select-style{
+    width: 1100px;
+    margin: 0 auto;
+    background: none;
+
+}
+
+#box4 div.select-style select{
+    width: 236px;
+    height: 36px;
+    margin: 0px 14px;
+    border: 0;
+    border-radius: 0;
+    background: url("images/dropdown.png") #fff no-repeat 96% 50%;
+    font: 12px "Microsoft YaHei";
+    color: #a8aaab;
+}
+
+#box4 div.select-style button{
+    width: 236px;
+    height: 36px;
+    margin: 0px 14px;
+    background-color: #be4f48;
+    border: none;
+    color: white;
+    font: 14px "Microsoft YaHei";
+}
+
+/*第5个盒子*/
+#box5{
+    height: 606px;
+    background-color: #f7f7f7;
+
+}
+#box5 div.box5-wrap{
+    width: 1020px;
+    height: inherit;
+    margin: 0 auto;
+}
+#box5 section.painting-style{
+    float: left;
+    text-align: center;
+    padding: 101px 18px;
+}
+#box5 section.painting-style img{
+    background-color: white;
+    padding: 12px 7px;
+    border: 1px solid #d9d5d4;
+}
+#box5 section.painting-style h3{
+    font-size: 14px;
+    color: #333;
+    padding: 14px 0px;
+}
+
+#box5 section h3.painting-selected01{
+    font-size: 20px;
+    word-wrap: break-word;
+    padding: 0;
+}
+#box5 section p.painting-selected02{
+    padding: 14px 0px;
+}
+
+#box5 section.painting-style p{
+    font-size: 12px;
+    color: #a8aaab;
+
+}
+
+/*第6个盒子，活动介绍*/
+#box6{
+    height: 566px;
+   
+}
+
+#box6 div.box6-activity-intro{
+    width: 851px;
+    height: inherit;
+    background:url("images/box7-pic.png") no-repeat;  
+    float: left;    
+    display: inline;
+}
+
+#box6 div.box6-activity-description{
+    display: inline-block;
+    width: 429px;
+    background-color: #999;
+    height: inherit;
+    float: left;  
+    display: inline;
+}
+
+#box7{
+    height: 520px;
+    border: 1px solid #999;
+}
+
+#box8{
+    height: 750px;
+    border: 1px solid #999;
+}
+
+#box9{
+    height: 360px;
+    border: 1px solid #999;
+}
+
+#box10{
+    height: 58px;
+    border: 1px solid #999;
+}
+
+
