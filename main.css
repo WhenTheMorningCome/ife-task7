@@ -424,7 +424,41 @@ section#intro button{
     height: 360px;
     background-color: #33363f;
 }
+#box9 .box9-content-wrap{
+    width: 512px;
+    margin: 0 auto;
+    text-align: center;
+}
+#box9 .box9-content-wrap h3{
+    font: 21px "SimSun";
+    color: white;
+    margin-bottom: 12px;
+}
+#box9 .box9-content-wrap p{
+    font: 12px "SimSun";
+    color: white;
+    line-height: 22px;
+}
+#box9 div.box9-content-wrap span.box9-contact{
+    height: 42px;
+    
+    
+}
+#box9 div.box9-content-wrap span.box9-contact input{
+    width: 430px;
+    height: inherit;
+    border: 0;
+}
+#box9 div.box9-content-wrap span.box9-contact button{
+    width: 80px;
+    height: inherit;  
+    border: 0; 
+}
+#box9 div.box9-content-wrap span.box9-sns{
+    display: block;
+}
 
+/*底部声明*/
 #box10{
     height: 58px;
     background-color: #303039;
